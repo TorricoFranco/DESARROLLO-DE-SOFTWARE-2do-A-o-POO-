@@ -206,7 +206,7 @@ Todos los atributos son `private`, con acceso controlado mediante getters y sett
 ## Flujo de Ejecución Principal
 
 1. **Main** se ejecuta y crea una **Liga**
-2. Se crean 3 **Equipos** y se agregan a la **Liga**
+2. Se crean 4 **Equipos** y se agregan a la **Liga**
 3. Se crean **Jugadores** y se agregan a cada **Equipo**
 4. Se crean **Partidos** entre equipos
 5. Se ejecuta `jugar()`, que actualiza las **EstadisticaEquipo** de ambos equipos
@@ -234,28 +234,6 @@ Todos los atributos son `private`, con acceso controlado mediante getters y sett
 
 ---
 
-## Requisitos Previos
-
-Antes de ejecutar el proyecto, asegúrate de tener instalado:
-
-- **Java Development Kit (JDK)** versión 8 o superior
-  - Descargar desde: [oracle.com/java](https://www.oracle.com/java/technologies/downloads/)
-  - O instalar vía package manager:
-    - **Windows:** `choco install openjdk` (con Chocolatey)
-    - **macOS:** `brew install openjdk`
-    - **Linux:** `sudo apt-get install openjdk-11-jdk` (Debian/Ubuntu)
-
-- **Git** (opcional, solo si se clona el repositorio)
-
-### Verificar instalación de Java
-
-Abre una terminal y ejecuta:
-```bash
-java -version
-javac -version
-```
-
----
 
 ## Instalación y Compilación
 
