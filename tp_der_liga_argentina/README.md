@@ -234,19 +234,54 @@ Todos los atributos son `private`, con acceso controlado mediante getters y sett
 
 ---
 
-## Instrucciones de Ejecución
+## Requisitos Previos
 
-1. Compilar el proyecto:
+Antes de ejecutar el proyecto, asegúrate de tener instalado:
+
+- **Java Development Kit (JDK)** versión 8 o superior
+  - Descargar desde: [oracle.com/java](https://www.oracle.com/java/technologies/downloads/)
+  - O instalar vía package manager:
+    - **Windows:** `choco install openjdk` (con Chocolatey)
+    - **macOS:** `brew install openjdk`
+    - **Linux:** `sudo apt-get install openjdk-11-jdk` (Debian/Ubuntu)
+
+- **Git** (opcional, solo si se clona el repositorio)
+
+### Verificar instalación de Java
+
+Abre una terminal y ejecuta:
+```bash
+java -version
+javac -version
+```
+
+---
+
+## Instalación y Compilación
+
+### Opción 1: Clonar desde GitHub
+
+1. Clona el repositorio:
    ```bash
-   javac -d . *.java
+   git clone https://github.com/TorricoFranco/DESARROLLO-DE-SOFTWARE-2do-A-o-POO-.git
    ```
 
-2. Ejecutar desde la carpeta `app/`:
+2. Navega a la carpeta del proyecto:
+   ```bash
+   cd DESARROLLO-DE-SOFTWARE-2do-A-o-POO-/tp_der_liga_argentina
+   ```
+
+3. Compila todos los archivos Java:
+   ```bash
+   javac -d . liga_argentina/*.java app/*.java
+   ```
+   
+4. Ejecuta el programa desde la carpeta raíz:
+
+   O si usas paquetes completos:
    ```bash
    java tp_der_liga_argentina.app.Main
    ```
-
-3. Seguir las indicaciones del menú interactivo
 
 ---
 
