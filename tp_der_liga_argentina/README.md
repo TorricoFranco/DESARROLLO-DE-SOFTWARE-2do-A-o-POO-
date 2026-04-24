@@ -160,7 +160,7 @@ Todos los atributos son `private`, con acceso controlado mediante getters y sett
 ## Relaciones entre Clases (Diagrama Conceptual)
 
 
-![DER del sistema](img/der.png)
+![DER del sistema](app/img/der.png)
 
 
 +	Liga ↔ Equipo (1:N): Una liga contiene muchos equipos; un equipo pertenece a una liga.
