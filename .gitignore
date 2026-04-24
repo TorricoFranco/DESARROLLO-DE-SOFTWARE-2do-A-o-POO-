@@ -1,0 +1,36 @@
+# Archivos compilados
+*.class
+
+# Carpetas de build
+bin/
+out/
+build/
+target/
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+*~
+
+# IDEs
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
