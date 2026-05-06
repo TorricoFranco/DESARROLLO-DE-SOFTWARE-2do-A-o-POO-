@@ -206,7 +206,7 @@ Todos los atributos son `private`, con acceso controlado mediante getters y sett
 ## Flujo de Ejecución Principal
 
 1. **Main** se ejecuta y crea una **Liga**
-2. Se crean 3 **Equipos** y se agregan a la **Liga**
+2. Se crean 4 **Equipos** y se agregan a la **Liga**
 3. Se crean **Jugadores** y se agregan a cada **Equipo**
 4. Se crean **Partidos** entre equipos
 5. Se ejecuta `jugar()`, que actualiza las **EstadisticaEquipo** de ambos equipos
@@ -234,19 +234,32 @@ Todos los atributos son `private`, con acceso controlado mediante getters y sett
 
 ---
 
-## Instrucciones de Ejecución
 
-1. Compilar el proyecto:
+## Instalación y Compilación
+
+### Opción 1: Clonar desde GitHub
+
+1. Clona el repositorio:
    ```bash
-   javac -d . *.java
+   git clone https://github.com/TorricoFranco/DESARROLLO-DE-SOFTWARE-2do-A-o-POO-.git
    ```
 
-2. Ejecutar desde la carpeta `app/`:
+2. Navega a la carpeta del proyecto:
+   ```bash
+   cd DESARROLLO-DE-SOFTWARE-2do-A-o-POO-/tp_der_liga_argentina
+   ```
+
+3. Compila todos los archivos Java:
+   ```bash
+   javac -d . liga_argentina/*.java app/*.java
+   ```
+   
+4. Ejecuta el programa desde la carpeta raíz:
+
+   O si usas paquetes completos:
    ```bash
    java tp_der_liga_argentina.app.Main
    ```
-
-3. Seguir las indicaciones del menú interactivo
 
 ---
 
